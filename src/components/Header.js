@@ -12,7 +12,7 @@ const Header = (props) => {
 
     return(
         <div>
-            <Navbar color="light" className="clearfix" light expand="md">
+            <Navbar color="light" className="clearfix" light expand="md" navbar style={{width: "100%"}}>
                 <NavbarBrand href="/">Corona Tracker</NavbarBrand>
                 <Nav className="mar-auto" navbar>
                     <NavItem>
@@ -25,7 +25,7 @@ const Header = (props) => {
                         <NavLink href="/maps">Maps</NavLink>
                     </NavItem>
                 </Nav>
-                <NavbarText className="float-right">Mustaf Hussain</NavbarText>
+                <NavbarText className="float-right" style={{marginLeft:'70%'}}>Mustaf Hussain</NavbarText>
             </Navbar>
         </div>
     )
