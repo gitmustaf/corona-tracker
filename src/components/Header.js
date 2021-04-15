@@ -1,4 +1,7 @@
-import react from 'react';
+import React from 'react';
+import logo from '../assets/covid19.png';
+import '../style/header.css';
+
 import {
     Navbar,
     NavbarBrand,
@@ -13,7 +16,10 @@ const Header = (props) => {
     return(
         <div>
             <Navbar color="light" className="clearfix" light expand="md" navbar style={{width: "100%"}}>
-                <NavbarBrand href="/">Corona Tracker</NavbarBrand>
+                <NavbarBrand href="/">
+                    <img src={logo} alt="Corona" className="Covid-Icon"/>
+                    Tracker
+                </NavbarBrand>
                 <Nav className="mar-auto" navbar>
                     <NavItem>
                         <NavLink href="/cases">Cases</NavLink>
