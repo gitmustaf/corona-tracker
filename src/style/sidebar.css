@@ -1,10 +1,20 @@
 .Sidebar-Main {
-    background-color: #acadad!important;
+    background-color: #fff!important;
     margin-top: 0px !important;
     height: 55em !important;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.Sidebar-Tags {
+    font-size: 14px !important;
 }
 
 .Body-Style {
     height: 55em !important;
     margin-top: 0px !important;
+}
+
+.Align-Left {
+    margin-left: 0% !important;
+    padding-left: 0% !important;
 }
