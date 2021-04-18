@@ -1,12 +1,43 @@
 .Sidebar-Main {
-    background-color: #fff!important;
+    background-color: rgb(219, 201, 201)!important;
     margin-top: 0px !important;
     height: 55em !important;
-    font-family: 'Cairo', sans-serif !important;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left !important;
+    font-size: 16px !important;
 }
 
 .Sidebar-Tags {
-    font-size: 14px !important;
+    font-size: 16px !important;
+}
+
+.circle {
+    background: rgb(115, 108, 185);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.Sidebar-List {
+    font-size: 12px !important;
+    margin-left: 0px !important;
+    padding-left: 8% !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Text-Batch {
+    font-size: 10px !important;
+    margin-top: 10px;
+}
+
+.Text-Bold {
+    font-weight: bold !important;
+}
+
+.Spacing-Zero {
+    padding: 0px !important;
+    margin: 0px !important;
 }
 
 .Body-Style {
