@@ -15,23 +15,23 @@ const Header = (props) => {
 
     return(
         <div>
-            <Navbar color="light" className="clearfix" light expand="md" navbar style={{width: "100%"}}>
+            <Navbar color="light" light expand="lg md xs">
                 <NavbarBrand href="/">
                     <img src={logo} alt="Corona" className="Covid-Icon"/>
                     Tracker
                 </NavbarBrand>
-                <Nav className="mar-auto" navbar>
-                    <NavItem>
+                <Nav className="mr-auto row"  navbar>
+                    <NavItem className="col">
                         <NavLink href="/cases">Cases</NavLink>
                     </NavItem>
-                    <NavItem>
+                    <NavItem className="col">
                         <NavLink href="/vaccines">Vaccines</NavLink>
                     </NavItem>
-                    <NavItem>
+                    <NavItem className="col">
                         <NavLink href="/maps">Maps</NavLink>
                     </NavItem>
                 </Nav>
-                <NavbarText className="float-right" style={{marginLeft:'70%'}}>Mustaf Hussain</NavbarText>
+                <NavbarText className="mr-2">Mustaf Hussain</NavbarText>
             </Navbar>
         </div>
     )
