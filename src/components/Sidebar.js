@@ -24,14 +24,14 @@ const Sidebar = (props) => {
         })
     },[]);
     return(
-        <Container fluid={true} className="Body-Style">
+        <Container fluid={true} className="body-style">
             <Row xs="12" md="12" lg="2" >
-                <Col xs="12" md="12" lg="2" className="Sidebar-Main col-md-auto">
+                <Col xs="12" md="12" lg="2" className="sidebar-main col-md-auto">
                     <HeadingInfo headingText="Confirmed cases worldwide" headingData={total.confirmed}/>                        
                     <BulletInfo bulletColor="green" infoText="Recovered" infoData={total.recovered}/>
                     <BulletInfo bulletColor="yellow" infoText="Critical" infoData={total.critical}/>
                     <BulletInfo bulletColor="red" infoText="Deaths" infoData={total.deaths}/>
-                    <div color="Warning" className="Text-Batch">Updated {
+                    <div color="Warning" className="text-batch">Updated {
                         Math.round((((new Date() - new Date(total.lastUpdate)) % 86400000) % 3600000) / 60000)} min ago
                     </div>
                     <hr/>
