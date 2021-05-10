@@ -4,7 +4,8 @@ import covidApi from '../helpers/covidApi';
 
 import BulletInfo from './BulletInfo';
 import HeadingInfo from './HeadingInfo';
- 
+import SearchComponent from './SearchComponent';
+
 import '../style/sidebar.css';
 
 const Sidebar = (props) => {
@@ -35,6 +36,7 @@ const Sidebar = (props) => {
                         Math.round((((new Date() - new Date(total.lastUpdate)) % 86400000) % 3600000) / 60000)} min ago
                     </div>
                     <hr/>
+                    <SearchComponent />
                 </Col>
                 <Col xs="8" md="8" lg="10"></Col>
             </Row>
